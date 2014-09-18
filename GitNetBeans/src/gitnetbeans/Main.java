@@ -5,18 +5,18 @@
  */
 
 package gitnetbeans;
-
-/**
- *
- * @author Campus
- */
+import java.util.Scanner;
 public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner entrada = new Scanner (System.in);
+        String nombre;
+        int edad;
+        
+        System.out.print("Introduce tu nombre: ");
+        nombre = entrada.nextLine();
+        System.out.print("Introduce tu edad: ");
+        edad = entrada.nextInt();
+        
     }
     
 }
